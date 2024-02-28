@@ -1,16 +1,35 @@
 body {
-  background-color: rgb(11, 29, 9);
+  background-color: #2C3A47;
 }
 
 h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   color: white;
   font-size: 50px;
+  width: 350px;
+  margin: 0 auto;
 }
 
 ul {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline-block;
+  font-family:monospace;
   font-size: 25px;
-  color: bisque;
+}
+.items {
+  width: 400px;
+  margin: 20px auto;
+  background-color: #182C61;
+  padding: 8px;
+  border-radius: 8px;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
 }
